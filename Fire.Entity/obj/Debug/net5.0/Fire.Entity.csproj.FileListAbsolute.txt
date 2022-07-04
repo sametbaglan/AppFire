@@ -10,3 +10,15 @@ C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\obj\Deb
 C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\obj\Debug\net5.0\refint\Fire.Entity.dll
 C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\obj\Debug\net5.0\Fire.Entity.pdb
 C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\obj\Debug\net5.0\ref\Fire.Entity.dll
+C:\Users\Batu\Documents\GitHub\AppFire\Fire.Entity\bin\Debug\net5.0\Fire.Entity.deps.json
+C:\Users\Batu\Documents\GitHub\AppFire\Fire.Entity\bin\Debug\net5.0\Fire.Entity.dll
+C:\Users\Batu\Documents\GitHub\AppFire\Fire.Entity\bin\Debug\net5.0\Fire.Entity.pdb
+C:\Users\Batu\Documents\GitHub\AppFire\Fire.Entity\obj\Debug\net5.0\Fire.Entity.csproj.AssemblyReference.cache
+C:\Users\Batu\Documents\GitHub\AppFire\Fire.Entity\obj\Debug\net5.0\Fire.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batu\Documents\GitHub\AppFire\Fire.Entity\obj\Debug\net5.0\Fire.Entity.AssemblyInfoInputs.cache
+C:\Users\Batu\Documents\GitHub\AppFire\Fire.Entity\obj\Debug\net5.0\Fire.Entity.AssemblyInfo.cs
+C:\Users\Batu\Documents\GitHub\AppFire\Fire.Entity\obj\Debug\net5.0\Fire.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Batu\Documents\GitHub\AppFire\Fire.Entity\obj\Debug\net5.0\Fire.Entity.dll
+C:\Users\Batu\Documents\GitHub\AppFire\Fire.Entity\obj\Debug\net5.0\refint\Fire.Entity.dll
+C:\Users\Batu\Documents\GitHub\AppFire\Fire.Entity\obj\Debug\net5.0\Fire.Entity.pdb
+C:\Users\Batu\Documents\GitHub\AppFire\Fire.Entity\obj\Debug\net5.0\ref\Fire.Entity.dll

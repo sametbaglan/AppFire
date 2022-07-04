@@ -1,46 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\FireApp\\Fire.UI\\Fire.UI.csproj": {}
+    "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.UI\\Fire.UI.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\FireApp\\Fire.Business\\Fire.Business.csproj": {
+    "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.Business\\Fire.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\FireApp\\Fire.Business\\Fire.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.Business\\Fire.Business.csproj",
         "projectName": "Fire.Business",
-        "projectPath": "D:\\Projects\\FireApp\\Fire.Business\\Fire.Business.csproj",
-        "packagesPath": "C:\\Users\\unilogistix\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\FireApp\\Fire.Business\\obj\\",
+        "projectPath": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.Business\\Fire.Business.csproj",
+        "packagesPath": "C:\\Users\\Batu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.Business\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\unilogistix\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Batu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Projects\\FireApp\\Fire.DataAccess\\Fire.DataAccess.csproj": {
-                "projectPath": "D:\\Projects\\FireApp\\Fire.DataAccess\\Fire.DataAccess.csproj"
+              "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.DataAccess\\Fire.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.DataAccess\\Fire.DataAccess.csproj"
               },
-              "D:\\Projects\\FireApp\\Fire.Entity\\Fire.Entity.csproj": {
-                "projectPath": "D:\\Projects\\FireApp\\Fire.Entity\\Fire.Entity.csproj"
+              "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.Entity\\Fire.Entity.csproj": {
+                "projectPath": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.Entity\\Fire.Entity.csproj"
               }
             }
           }
@@ -73,40 +63,30 @@
         }
       }
     },
-    "D:\\Projects\\FireApp\\Fire.DataAccess\\Fire.DataAccess.csproj": {
+    "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.DataAccess\\Fire.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\FireApp\\Fire.DataAccess\\Fire.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.DataAccess\\Fire.DataAccess.csproj",
         "projectName": "Fire.DataAccess",
-        "projectPath": "D:\\Projects\\FireApp\\Fire.DataAccess\\Fire.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\unilogistix\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\FireApp\\Fire.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.DataAccess\\Fire.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Batu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\unilogistix\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Batu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Projects\\FireApp\\Fire.Entity\\Fire.Entity.csproj": {
-                "projectPath": "D:\\Projects\\FireApp\\Fire.Entity\\Fire.Entity.csproj"
+              "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.Entity\\Fire.Entity.csproj": {
+                "projectPath": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.Entity\\Fire.Entity.csproj"
               }
             }
           }
@@ -165,32 +145,22 @@
         }
       }
     },
-    "D:\\Projects\\FireApp\\Fire.Entity\\Fire.Entity.csproj": {
+    "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.Entity\\Fire.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\FireApp\\Fire.Entity\\Fire.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.Entity\\Fire.Entity.csproj",
         "projectName": "Fire.Entity",
-        "projectPath": "D:\\Projects\\FireApp\\Fire.Entity\\Fire.Entity.csproj",
-        "packagesPath": "C:\\Users\\unilogistix\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\FireApp\\Fire.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.Entity\\Fire.Entity.csproj",
+        "packagesPath": "C:\\Users\\Batu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.Entity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\unilogistix\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Batu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -227,43 +197,33 @@
         }
       }
     },
-    "D:\\Projects\\FireApp\\Fire.UI\\Fire.UI.csproj": {
+    "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.UI\\Fire.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\FireApp\\Fire.UI\\Fire.UI.csproj",
+        "projectUniqueName": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.UI\\Fire.UI.csproj",
         "projectName": "Fire.UI",
-        "projectPath": "D:\\Projects\\FireApp\\Fire.UI\\Fire.UI.csproj",
-        "packagesPath": "C:\\Users\\unilogistix\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\FireApp\\Fire.UI\\obj\\",
+        "projectPath": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.UI\\Fire.UI.csproj",
+        "packagesPath": "C:\\Users\\Batu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.UI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\unilogistix\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Batu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Projects\\FireApp\\Fire.Business\\Fire.Business.csproj": {
-                "projectPath": "D:\\Projects\\FireApp\\Fire.Business\\Fire.Business.csproj"
+              "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.Business\\Fire.Business.csproj": {
+                "projectPath": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.Business\\Fire.Business.csproj"
               },
-              "D:\\Projects\\FireApp\\Fire.DataAccess\\Fire.DataAccess.csproj": {
-                "projectPath": "D:\\Projects\\FireApp\\Fire.DataAccess\\Fire.DataAccess.csproj"
+              "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.DataAccess\\Fire.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Batu\\Documents\\GitHub\\AppFire\\Fire.DataAccess\\Fire.DataAccess.csproj"
               }
             }
           }
