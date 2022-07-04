@@ -1,0 +1,53 @@
+﻿@model AllLayoutViewModel
+@{
+    ViewData["Title"] = "DailyReport";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="row">
+    <header class="page-header">
+        <div class="col-mr-5">
+            <form method="post" asp-controller="Report" asp-action="DailyReport">
+                <span>ilk Tarih</span><input type="date" id="firstdate" asp-for="productQuantity.CreatedDate" />
+                <hr>
+                <span>son Tarih</span><input type="date" id="enddate" asp-for="productQuantity.ModifyDate"/>
+                <button type="submit" class="btn btn-info">Getir</button>
+            </form>
+
+        </div>
+    </header>
+
+
+    @if (Model.productQuantities == null)
+    {
+
+    }
+    else
+    {
+        <div class="col-lg-6 col-md-6">
+
+            <table class="table table-bordered">
+                <tr>
+                    <th></th>
+                    <th>Ürün</th>
+                    <th>Alınan Kg</th>
+                    <th>Müşteri</th>
+                    <th></th>
+                </tr>
+                @foreach (var item in Model.productQuantities)
+                {
+                    <tr>
+                        <td></td>
+                        <td>@item.Name</td>
+                        <td>@item.Totalkg</td>
+                        <td>@Functions.CustomerName(item.customerid)</td>
+                        <td></td>
+                    </tr>
+                }
+            </table>
+        </div>
+    }
+</div>
+

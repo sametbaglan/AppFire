@@ -1,0 +1,33 @@
+﻿@using Fire.Business.Encryption
+@model AllLayoutViewModel
+@{
+    ViewData["Title"] = "GetBeforeReceiptByFactoryid";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <header class="page-header">
+    </header>
+    <table class="table table-bordered">
+        <tr>
+            <th></th>
+            <th>Tarih</th>
+            <th>Gün içinde verilen miktar</th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model.factoryQuantityViewModels)
+        {
+            <tr>
+                <td></td>
+                <td>@item.createdate.ToShortDateString()</td>
+                <td>@item.quantity</td>
+                <td>
+                    <a href="/Factory/GetFisByid/?quantity=@CommondMethod.ConvertToEncrypt(@item.quantity.ToString() +"," +item.createdate.ToShortDateString())" name="" class="btn-sm btn-danger">Göster</a>
+                    <a href="/Factory/FullPaid/?quantity=@CommondMethod.ConvertToEncrypt(@item.quantity.ToString() +"," +item.createdate.ToShortDateString())" name="" class="btn-sm btn-success">Ödeme</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>
+

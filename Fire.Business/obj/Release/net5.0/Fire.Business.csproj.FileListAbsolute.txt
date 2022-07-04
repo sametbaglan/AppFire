@@ -1,0 +1,17 @@
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\bin\Release\net5.0\Fire.Business.deps.json
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\bin\Release\net5.0\Fire.Business.dll
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\bin\Release\net5.0\Fire.Business.pdb
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\bin\Release\net5.0\Fire.DataAccess.dll
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\bin\Release\net5.0\Fire.Entity.dll
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\bin\Release\net5.0\Fire.DataAccess.pdb
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\bin\Release\net5.0\Fire.Entity.pdb
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\obj\Release\net5.0\Fire.Business.csproj.AssemblyReference.cache
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\obj\Release\net5.0\Fire.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\obj\Release\net5.0\Fire.Business.AssemblyInfoInputs.cache
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\obj\Release\net5.0\Fire.Business.AssemblyInfo.cs
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\obj\Release\net5.0\Fire.Business.csproj.CoreCompileInputs.cache
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\obj\Release\net5.0\Fire.Business.csproj.CopyComplete
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\obj\Release\net5.0\Fire.Business.dll
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\obj\Release\net5.0\refint\Fire.Business.dll
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\obj\Release\net5.0\Fire.Business.pdb
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Business\obj\Release\net5.0\ref\Fire.Business.dll

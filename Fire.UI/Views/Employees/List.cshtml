@@ -1,0 +1,33 @@
+﻿@model AllLayoutViewModel
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <header class="page-header">
+    </header>
+    <table class="table table-bordered">
+        <tr>
+            <td>İsim</td>
+            <td>Soyad</td>
+            <td>Maaş</td>
+        </tr>
+        @foreach (var employees in Model.ListEmployees)
+        {
+            <tr>
+                <td>@employees.Name</td>
+                <td>@employees.Surname</td>
+                <td>@employees.Salary</td>
+                <td style="text-align:right">
+                    <a href="/Employees/Update/@employees.id" name="id" class="btn-sm btn-warning" style="margin-right:6px !important;" title="Edit">Güncelle</a>
+                    <form action="/Employees/Delete" method="post" style="display:inline">
+                        <input type="hidden" name="id" value="@employees.id" />
+                        <button type="submit" class="btn-sm btn-danger js-sweetalert" style="margin-right:6px !important;" data-type="confirm" title="Delete">Sil</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+

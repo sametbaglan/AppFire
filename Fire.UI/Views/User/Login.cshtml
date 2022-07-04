@@ -1,0 +1,30 @@
+﻿@model AllLayoutViewModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/LoginLayout.cshtml";
+}
+
+
+<form method="post" asp-controller="User" asp-action="Login">
+
+    <div class="email">
+        @if (ViewBag.error != null)
+        {
+            <b class="alert-danger">@ViewBag.error</b>
+        }
+        <label for="email">Email Adres</label>
+        <div class="sec-2">
+            <ion-icon name="mail-outline"></ion-icon>
+            <input type="email" asp-for="User.email" placeholder="Username@gmail.com" />
+        </div>
+    </div>
+    <div class="password">
+        <label for="password">Şifre</label>
+        <div class="sec-2">
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <input class="pas" type="password" asp-for="User.password" placeholder="············" />
+            <ion-icon class="show-hide" name="eye-outline"></ion-icon>
+        </div>
+    </div>
+    <button type="submit" class="login">Giriş </button>
+</form>

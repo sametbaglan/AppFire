@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
+
+    <title>Ömeroğlu Ticaret A.Ş  v1.0.2</title>
+
+    <link rel="shortcut icon" href="/Progressus/assets/images/fire.jpg">
+    <link rel="stylesheet" href="/Progressus/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Progressus/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <!-- Custom styles for our template -->
+    <link rel="stylesheet" href="/Progressus/assets/css/bootstrap-theme.css" media="screen">
+    <link rel="stylesheet" href="/Progressus/assets/css/main.css">
+
+
+</head>
+
+<body>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top headroom">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Button for smallest screens -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <a class="navbar-brand" asp-controller="Customer" asp-action="List"><img src="/Progressus/assets/images/fire.jpg" style="width: 50px; border-radius: 99px;" alt="Progressus HTML5 template"></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav pull-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Müşteriler <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-controller="Customer" asp-action="List">Müşteriler</a></li>
+                            <li><a asp-controller="Customer" asp-action="Add">Yeni Müşteri</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fabrikalar <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-controller="Factory" asp-action="List">Fabrikalar</a></li>
+                            <li><a asp-controller="Factory" asp-action="AddFactory">Yeni Fabrika</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a asp-controller="StockTracking" asp-action="List" class="dropdown-toggle" data-toggle="dropdown">Çek Yönetimi <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-controller="Check" asp-action="GetList">Tüm Çekler</a></li>
+                            @*      <li><a asp-controller="Report" asp-action="FactoryReport">Fire Satış İstatistik</a></li>*@
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a asp-controller="Employees" asp-action="List" class="dropdown-toggle" data-toggle="dropdown">Çalışanlar <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-controller="Employees" asp-action="List">Çalışanlar</a></li>
+                            <li><a asp-controller="Employees" asp-action="Add">Yeni Çalışan</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a asp-controller="Expenses" asp-action="GetList" class="dropdown-toggle" data-toggle="dropdown">Giderler <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-controller="Expenses" asp-action="GetList">Giderler Listesi</a></li>
+                            <li><a asp-controller="Expenses" asp-action="Add">Yeni Gider</a></li>
+                            <li><a asp-controller="Expenses" asp-action="DailyExpenses">Günlük Gider</a></li>
+                            <li><a asp-controller="Expenses" asp-action="MounthExpenses">Aylık Gider</a></li>
+                            <li><a asp-controller="Expenses" asp-action="YearlyExpenses">Yıllık Gider</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a asp-controller="ProductType" asp-action="List" class="dropdown-toggle" data-toggle="dropdown">Ürünler <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-controller="ProductType" asp-action="List">Ürünler Listesi</a></li>
+                            <li><a asp-controller="ProductType" asp-action="ProductTypeAdd">Ürün Ekle</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a asp-controller="StockTracking" asp-action="List" class="dropdown-toggle" data-toggle="dropdown">Stok Yönetimi <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-controller="StockTracking" asp-action="List">Stok Listesi</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a asp-controller="StockTracking" asp-action="List" class="dropdown-toggle" data-toggle="dropdown">Raporlar <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-controller="Report" asp-action="DailyReport">Fire Alış İstatistik</a></li>
+                            <li><a asp-controller="Report" asp-action="FactoryReport">Fire Satış İstatistik</a></li>
+                        </ul>
+                    </li>
+                    <li><a asp-controller="User" asp-action="Detail">Kişisel</a></li>
+                    <li><a asp-controller="User" asp-action="Logout" class="btn">Çıkış</a></li>
+                </ul>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+    <!-- /.navbar -->
+
+    <header id="head" class="secondary"></header>
+
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+
+
+    <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="/Progressus/assets/js/headroom.min.js"></script>
+    <script src="/Progressus/assets/js/jQuery.headroom.min.js"></script>
+    <script src="/Progressus/assets/js/template.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

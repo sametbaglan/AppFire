@@ -1,0 +1,33 @@
+﻿@model AllLayoutViewModel
+@{
+    ViewData["Title"] = "YearlyExpenses";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <header class="page-header">
+    </header>
+
+    <table class="table table-bordered">
+        <tr>
+            <td>Açıklama</td>
+            <td>Gider</td>
+            <td></td>
+        </tr>
+        @foreach (var employees in Model.ListExpenses)
+        {
+            <tr>
+                <td>@employees.Description</td>
+                <td>@employees.ExpensesPrice</td>
+                <td style="text-align:right">
+                    <a href="/Expenses/Update/@employees.id" name="id" class="btn btn-warning" style="margin-right:6px !important;" title="Edit">Güncelle<i class="fa fa-edit"></i></a>
+                    @*    <a href="/Locations/GetByTrucksByLocation/@PasswordHash.ConvertToEncryp(items.id)" name="truckid" style="margin-right:6px !important;" class="btn btn-info" title="Current Location"><i class="fa fa-map"></i></a>*@
+                </td>
+            </tr>
+        }
+    </table>
+    <div class="col-md-10">
+        <input type="text" disabled="disabled" name="id" value="@ViewBag.total" />
+    </div>
+
+</div>

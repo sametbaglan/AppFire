@@ -1,0 +1,62 @@
+﻿@using Fire.Business.Encryption
+@model AllLayoutViewModel
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+    <center>
+        <header class="page-header">
+            <input type="text" id="txtsearch" placeholder="Müşteri Giriniz" />
+        </header>
+        <hr />
+        <table class="table table-bordered">
+            <tr>
+                <td>İsim</td>
+                <td>Soyad</td>
+                <td>Telefon</td>
+                <td></td>
+            </tr>
+            @foreach (var customer in ViewBag.results)
+            {
+                <tr class="Search">
+                    <td>@customer.Name</td>
+                    <td>@customer.Surname</td>
+                    <td>@customer.PhoneNumber</td>
+                    <td style="text-align:right">
+                        <a href="/Customer/GetBeforeFisWithCustomerid/@CommondMethod.ConvertToEncrypt(@customer.id.ToString())" name="id" class="btn-sm btn-success" style="margin-right:6px !important;" title="Fişler">Fişler</a>
+                        <a href="/ProductType/Add/@CommondMethod.ConvertToEncrypt(@customer.id.ToString())" name="id" class="btn-sm btn-info" style="margin-right:6px !important;" title="Fişler">Yeni Fiş</a>
+                        <a href="/Customer/Update/@CommondMethod.ConvertToEncrypt(@customer.id.ToString())" name="id" class="btn-warning btn-sm" style="margin-right:6px !important;" title="Edit">Güncelle</a>
+                        <a href="/Check/CheckGive/@CommondMethod.ConvertToEncrypt(@customer.id.ToString())" name="id" class="btn-danger btn-sm" style="margin-right:6px !important;" title="Çek">Çek Ver</a>
+                        <a href="/Check/CheckOfCustomer/@CommondMethod.ConvertToEncrypt(@customer.id.ToString())" name="id" class="btn-Secondary btn-sm" style="margin-right:6px !important;" title="Çek">Çekler</a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </center>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        function Contains(text_one, text_two) {
+            if (text_one.indexOf(text_two) != -1)
+                return true;
+        }
+        $("#txtsearch").keyup(function() {
+            var searchtext = $("#txtsearch").val().toLowerCase();
+            $(".Search").each(function() {
+                if (!Contains($(this).text().toLowerCase(), searchtext)) {
+                    $(this).hide();
+                }
+                else {
+                    $(this).show();
+                }
+            })
+        })
+    })
+</script>
+
+
+
+
+

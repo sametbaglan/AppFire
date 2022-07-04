@@ -1,0 +1,12 @@
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\bin\Debug\net5.0\Fire.Entity.deps.json
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\bin\Debug\net5.0\Fire.Entity.dll
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\bin\Debug\net5.0\Fire.Entity.pdb
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\obj\Debug\net5.0\Fire.Entity.csproj.AssemblyReference.cache
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\obj\Debug\net5.0\Fire.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\obj\Debug\net5.0\Fire.Entity.AssemblyInfoInputs.cache
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\obj\Debug\net5.0\Fire.Entity.AssemblyInfo.cs
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\obj\Debug\net5.0\Fire.Entity.csproj.CoreCompileInputs.cache
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\obj\Debug\net5.0\Fire.Entity.dll
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\obj\Debug\net5.0\refint\Fire.Entity.dll
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\obj\Debug\net5.0\Fire.Entity.pdb
+C:\Users\unilogistix\OneDrive\Masaüstü\FireProject\FireApp\Fire.Entity\obj\Debug\net5.0\ref\Fire.Entity.dll

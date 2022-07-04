@@ -1,0 +1,74 @@
+﻿@model AllLayoutViewModel
+@{
+    ViewData["Title"] = "FullPaid";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+    <header class="page-header">
+        @if (ViewBag.error != null)
+        {
+            <div class="alert-danger">@ViewBag.error</div>
+        }
+    </header>
+    <div class="col-lg-6 col-md-6">
+        <form asp-controller="Customer" asp-action="FullPaid" name="formadd" method="post" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-md-6">
+                    @if (Model.paymentCont.totalpice == 0)
+                    {
+                        <span>Toplam  Ödenecek Tutar</span> <input type="text" value="@Model.paymentCont.totalpice" id="totalprice" disabled="disabled" /> <span>TL</span>
+                    }
+                    else
+                    {
+                        <span>Toplam  Ödenecek Tutar</span> <input type="text" value="@(@Model.paymentCont.totalpice + @Model.paymentCont.paidprice)" id="totalprice" disabled="disabled" />
+
+                        <span>TL</span>
+                    }
+                     <br />
+                    <span>Ödenmiş Tutar</span> <input type="text" value="@Model.paymentCont.paidprice" disabled="disabled" id="" /> TL
+                    <br />
+                    <span>Ödenecek Tutar </span> <input type="text" value="@Model.paymentCont.totalpice" id="odenecek" disabled="disabled" /> TL
+                    <br />
+                    <div class="form-group">
+                        <label class="control-label"> Verilen Miktar</label>
+                        <input id="productName" class="form-control" type="text" @*onfocus="myfocus(this)"*@ name="deger" required />
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-10 offset-md-2">
+                            <button type="submit" id="btn1" class=" center-block btn btn-primary">Öde</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        @*<button class="btn btn-success" id="btn2">adasd</button>*@
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/snippets/javascript.min.js"></script>
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+
+
+<script>
+
+    //function myfocus(x) {
+    //    x.style.background = "yellow";
+    //}
+
+
+
+
+    $(document).ready(function() {
+        var result;
+        result = document.getElementById("odenecek").value;
+        if (result == 0) {
+            $('#btn1').prop('disabled', true);
+        }
+
+    });
+
+</script>
